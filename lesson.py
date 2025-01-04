@@ -15,11 +15,3 @@ class Numbers:
         return [i for i in self.my_list if i == 0]
 
 
-nums = Numbers(7, 8, 9)
-nums_2 = Numbers(7, 8, 9)
-
-nums.add_number(10)
-nums_2.add_number(11)
-nums_2.add_number(12)
-print(nums.get_positive())
-print(nums_2.get_positive())
