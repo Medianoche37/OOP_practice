@@ -17,12 +17,3 @@ class Celsius:
             self.temp = value
 
 
-class Notebook:
-    def __init__(self, notes):
-        self._notes = notes
-
-    @property
-    def notes_list(self):
-        for n, v in enumerate(self._notes, 1):
-            print(f'{n}.{v}')
-
